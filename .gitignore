@@ -1,2 +1,6 @@
 /double_colon_operators.iml
 /DoubleColon_Comparators.iml
+.idea
+*.iml
+
+/.idea/misc.xml
