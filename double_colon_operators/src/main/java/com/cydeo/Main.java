@@ -1,6 +1,7 @@
 package com.cydeo;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class Main {
@@ -34,6 +35,34 @@ public class Main {
 
         Function<Integer,Double> b1 = new MyClass()::method;
         BiFunction<MyClass,Integer,Double> b2 = (MyClass::method );
+
+
+        Consumer<Integer> display = i-> System.out.println(i);
+
+        Consumer<Integer> display1 = System.out::println; // ez way with lambda
+
+        display1.accept(5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
